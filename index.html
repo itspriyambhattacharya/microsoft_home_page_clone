@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <title>Microsoft &ndash; Cloud, Computers, Apps &amp; Gaming</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tailwind.css">
+</head>
+
+<body>
+    <header class="container mx-auto relative bg-white">
+        <nav class="flex justify-between items-center px-3 py-4">
+
+            <div id="hambergur" class="cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" id="ham-menu" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" id="ham-menu-close" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+
+            <div id="search" class="cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 scale-x-[-1]" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+
+            <div id="logo">
+                <a href="/index.html">
+                    <img src="./images/logo.png" alt="logo" class="w-28">
+                </a>
+            </div>
+
+            <div id="cart" class="cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </div>
+
+            <div id="user-login" class="cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+
+        </nav>
+        <ul id="nav-items" class="absolute top-[56px] bg-[#f2f2f2] w-full left-960">
+            <li class="border-b-2 border-b-[#e6e6e6] px-3 py-4">
+                <a href="#">Microsoft 365</a>
+            </li>
+            <li class="border-b-2 border-b-background px-3 py-4" onclick="location.href = 'https://priyambhattacharya.netlify.app'">
+                <a href="#">Office</a>
+            </li>
+            <li class="border-b-2 border-b-background px-3 py-4">
+                <a href="#">Windows</a>
+            </li>
+            <li class="border-b-2 border-b-background px-3 py-4">
+                <a href="#">Surface</a>
+            </li>
+            <li class="border-b-2 border-b-background px-3 py-4">
+                <a href="#">Xbox</a>
+            </li>
+            <li class="border-b-2 border-b-background px-3 py-4">
+                <a href="#">Support</a>
+            </li>
+        </ul>
+    </header>
+
+    <main id="main">
+        <section id="banner" class="container mx-auto">
+            <div id="b-1" class="">
+
+                <div id="card1-img-area" class=" h-[20vh] bg-[url('/images/c1.webp')] bg-right-bottom bg-cover"></div>
+
+                <div id="card1-text" class="bg-background py-16">
+
+                    <div id="card-1-badge" class="bg-banner-badge px-4 py-1 mx-auto w-fit">
+                        <p class="font-segoe font-semibold">New</p>
+                    </div>
+
+                    <div id="card-1-head" class="my-2">
+                        <h2 class="font-segoe font-semibold text-center text-xl">Surface Pro 8</h2>
+                    </div>
+
+                    <div id="card-1-text" class="px-4 mb-2">
+                        <p class="text-center">Do more with a larger 13-inch touchscreen, faster connections and extra
+                            speed. Now available
+                            with Windows 11.</p>
+                    </div>
+
+                    <div id="card-1-btn"
+                        class="w-fit mx-auto bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
+                        <a href="#" class="text-white font-segoe font-semibold">
+                            <span class="group-hover:underline underline-offset-4">Learn more
+
+                            </span> <span class="group-hover:ml-2 group-hover:no-underline group-hover:transition-all">&GT;</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "microsoft_home_page_clone",
+  "version": "1.0.0",
+  "description": "Microsoft Home Page Clone Using Tailwind CSS",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Priyam Bhattacharya",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.4"
+  }
+}
