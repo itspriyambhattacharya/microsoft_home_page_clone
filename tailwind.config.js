@@ -11,7 +11,8 @@ module.exports = {
         'background': '#e6e6e6',
         'banner-badge': '#ffb900',
         'shop-now-btn': '#005da6',
-        'footer': '#f2f2f2'
+        'foot': '#f2f2f2',
+        'foot-content': '#616161'
       },
       fontFamily: {
         'segoe': ['"Segoe UI"', 'sans-serif'],
