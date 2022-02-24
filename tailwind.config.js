@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         'background': '#e6e6e6',
         'banner-badge': '#ffb900',
-        'shop-now-btn': '#005da6'
+        'shop-now-btn': '#005da6',
+        'footer': '#f2f2f2'
       },
       fontFamily: {
         'segoe': ['"Segoe UI"', 'sans-serif'],
