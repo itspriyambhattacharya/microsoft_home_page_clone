@@ -15,7 +15,7 @@
     <header class="container mx-auto relative bg-white px-3 py-4">
         <nav class="flex justify-between items-center">
 
-            <div id="hambergur" class="cursor-pointer">
+            <div id="hambergur" class="cursor-pointer lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" id="ham-menu" viewBox="0 0 20 20"
                     fill="currentColor">
                     <path fill-rule="evenodd"
@@ -29,29 +29,30 @@
                 </svg>
             </div>
 
-            <ul id="nav-items" class="absolute top-[56px] bg-[#f2f2f2] w-full left-960">
-                <li class="border-b-2 border-b-[#e6e6e6] px-3 py-4">
+            <ul id="nav-items"
+                class="absolute top-[56px] bg-[#f2f2f2] w-full left-960 lg:w-fit lg:static lg:flex lg:bg-transparent lg:order-2 lg:mr-auto lg:ml-4">
+                <li class="border-b-2 border-b-[#e6e6e6] px-3 py-4 lg:border-b-0">
                     <a href="#">Microsoft 365</a>
                 </li>
-                <li class="border-b-2 border-b-background px-3 py-4"
+                <li class="border-b-2 border-b-background px-3 py-4 lg:border-b-0"
                     onclick="location.href = 'https://priyambhattacharya.netlify.app'">
                     <a href="#">Office</a>
                 </li>
-                <li class="border-b-2 border-b-background px-3 py-4">
+                <li class="border-b-2 border-b-background px-3 py-4 lg:border-b-0">
                     <a href="#">Windows</a>
                 </li>
-                <li class="border-b-2 border-b-background px-3 py-4">
+                <li class="border-b-2 border-b-background px-3 py-4 lg:border-b-0">
                     <a href="#">Surface</a>
                 </li>
-                <li class="border-b-2 border-b-background px-3 py-4">
+                <li class="border-b-2 border-b-background px-3 py-4 lg:border-b-0">
                     <a href="#">Xbox</a>
                 </li>
-                <li class="border-b-2 border-b-background px-3 py-4">
+                <li class="border-b-2 border-b-background px-3 py-4 lg:border-b-0">
                     <a href="#">Support</a>
                 </li>
             </ul>
 
-            <div id="search" class="cursor-pointer">
+            <div id="search" class="cursor-pointer lg:order-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 scale-x-[-1]" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -59,13 +60,13 @@
                 </svg>
             </div>
 
-            <div id="logo">
+            <div id="logo" class="lg:order-1">
                 <a href="/">
                     <img src="./images/logo.png" alt="logo" class="w-28">
                 </a>
             </div>
 
-            <div id="cart" class="cursor-pointer">
+            <div id="cart" class="cursor-pointer lg:order-4 lg:mx-5">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -73,7 +74,7 @@
                 </svg>
             </div>
 
-            <div id="user-login" class="cursor-pointer">
+            <div id="user-login" class="cursor-pointer lg:order-5">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -150,11 +151,11 @@
         </section>
         <!-- Small Card Section Ends -->
         <!-- Display Card Section Start -->
-        <section class="container mx-auto px-4 lg:px-0 pb-16" id="display-card">
+        <section class="container mx-auto px-4 pb-16" id="display-card">
 
             <!-- Display Card 1 Start -->
 
-            <div class="grid grid-cols-1 gap-7 xssm:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="grid grid-cols-1 gap-7 xssm:grid-cols-2 sm:grid-cols-2 xl:grid-cols-4">
                 <div id="display-card-item-1">
                     <div id="dc-img-1">
                         <img src="./images/display_cards/dc-1.webp" alt="display card img-1" class="w-full">
@@ -264,12 +265,12 @@
             </div>
         </section>
 
-        <section class="container mx-auto px-4 lg:px-0 py-11 w-full" id="business-cards">
+        <section class="container mx-auto px-4 py-11 w-full" id="business-cards">
 
             <h2 class="font-segoe text-2xl font-semibold mb-5">For business</h2>
             <!-- Business Card 1 Start -->
 
-            <div class="grid grid-cols-1 gap-7 xssm:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="grid grid-cols-1 gap-7 xssm:grid-cols-2 sm:grid-cols-2 xl:grid-cols-4">
                 <div id="business-card-item-1">
                     <div id="dc-img-1">
                         <img src="./images/business_cards/1.webp" alt="business card img-1" class="w-full">
@@ -376,7 +377,8 @@
                 <span class="peer-hover:ml-1">&GT;</span>
             </a>
         </section>
-        <section class="container mx-auto px-4 lg:px-0 py-8 flex justify-center gap-3 items-center sm:justify-start sm:items-start"
+        <section
+            class="container mx-auto px-4 py-8 flex justify-center gap-3 items-center sm:justify-start sm:items-start"
             id="follow-sm">
             <span class="text-black/60">Follow Microsoft</span>
             <a href="#" target="_blank" id="fb">
@@ -424,7 +426,7 @@
     </main>
 
     <footer class="bg-foot w-full">
-        <div class="container mx-auto px-4 lg:px-0 py-10 grid grid-cols-1 gap-9 xssm:grid-cols-2 lg:grid-cols-6">
+        <div class="container mx-auto px-4 py-10 grid grid-cols-1 gap-9 xssm:grid-cols-2 lg:grid-cols-6">
             <!-- What's New Links Start -->
             <div id="whats-new" class="flex flex-col gap-3">
                 <h2 class="text-[15px] text-foot-content font-semibold">What&apos;s new</h2>
@@ -641,7 +643,7 @@
             </div>
             <!-- Copmpany Links End -->
         </div>
-        <div class="container mx-auto px-4 lg:px-0 pb-10 flex flex-col md:flex-row md:justify-between md:items-center">
+        <div class="container mx-auto px-4 pb-10 flex flex-col md:flex-row md:justify-between md:items-center">
             <a href="#" class="flex items-center gap-3 text-foot-content text-[11px] hover:underline decoration-black">
                 <svg version="1.1" class="w-6" style="fill: #616161;" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
