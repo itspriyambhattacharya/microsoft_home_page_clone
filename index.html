@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header class="container mx-auto relative bg-white">
-        <nav class="flex justify-between items-center px-3 py-4">
+    <header class="container mx-auto relative bg-white px-3 py-4">
+        <nav class="flex justify-between items-center">
 
             <div id="hambergur" class="cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" id="ham-menu" viewBox="0 0 20 20"
@@ -28,6 +28,28 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </div>
+
+            <ul id="nav-items" class="absolute top-[56px] bg-[#f2f2f2] w-full left-960">
+                <li class="border-b-2 border-b-[#e6e6e6] px-3 py-4">
+                    <a href="#">Microsoft 365</a>
+                </li>
+                <li class="border-b-2 border-b-background px-3 py-4"
+                    onclick="location.href = 'https://priyambhattacharya.netlify.app'">
+                    <a href="#">Office</a>
+                </li>
+                <li class="border-b-2 border-b-background px-3 py-4">
+                    <a href="#">Windows</a>
+                </li>
+                <li class="border-b-2 border-b-background px-3 py-4">
+                    <a href="#">Surface</a>
+                </li>
+                <li class="border-b-2 border-b-background px-3 py-4">
+                    <a href="#">Xbox</a>
+                </li>
+                <li class="border-b-2 border-b-background px-3 py-4">
+                    <a href="#">Support</a>
+                </li>
+            </ul>
 
             <div id="search" class="cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 scale-x-[-1]" fill="none" viewBox="0 0 24 24"
@@ -60,26 +82,6 @@
             </div>
 
         </nav>
-        <ul id="nav-items" class="absolute top-[56px] bg-[#f2f2f2] w-full left-960">
-            <li class="border-b-2 border-b-[#e6e6e6] px-3 py-4">
-                <a href="#">Microsoft 365</a>
-            </li>
-            <li class="border-b-2 border-b-background px-3 py-4" onclick="location.href = 'https://priyambhattacharya.netlify.app'">
-                <a href="#">Office</a>
-            </li>
-            <li class="border-b-2 border-b-background px-3 py-4">
-                <a href="#">Windows</a>
-            </li>
-            <li class="border-b-2 border-b-background px-3 py-4">
-                <a href="#">Surface</a>
-            </li>
-            <li class="border-b-2 border-b-background px-3 py-4">
-                <a href="#">Xbox</a>
-            </li>
-            <li class="border-b-2 border-b-background px-3 py-4">
-                <a href="#">Support</a>
-            </li>
-        </ul>
     </header>
 
     <main id="main">
@@ -109,7 +111,8 @@
                         <a href="#" class="text-white font-segoe font-semibold">
                             <span class="group-hover:underline underline-offset-4">Learn more
 
-                            </span> <span class="group-hover:ml-2 group-hover:no-underline group-hover:transition-all">&GT;</span>
+                            </span> <span
+                                class="group-hover:ml-2 group-hover:no-underline group-hover:transition-all">&GT;</span>
                         </a>
                     </div>
 
