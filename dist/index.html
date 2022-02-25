@@ -10,7 +10,7 @@
     
     
   <script type="module" crossorigin src="/assets/index.e8c08069.js"></script>
-  <link rel="stylesheet" href="/assets/index.274765b6.css">
+  <link rel="stylesheet" href="/assets/index.cb4f9a89.css">
 </head>
 
 <body>
@@ -89,28 +89,32 @@
 
     <main id="main">
         <section id="banner" class="container mx-auto">
-            <div id="b-1">
+            <div id="b-1" class="md:relative">
 
-                <div id="card1-img-area" class=" h-[20vh] bg-[url('/images/c1.webp')] bg-right-bottom bg-cover"></div>
+                <div id="card1-img-area"
+                    class="h-[26vh] xssm:h-[37vh] sm:h-[49vh] lg:h-[64vh] bg-[url('/images/c1.webp')] bg-right-bottom md:bg-right-top bg-cover">
+                </div>
 
-                <div id="card1-text" class="bg-background py-16">
+                <div id="card1-text"
+                    class="bg-background py-16 md:absolute md:top-0 md:left-0 md:bg-transparent md:ml-12 lg:ml-24 md:py-6 lg:py-10">
 
-                    <div id="card-1-badge" class="bg-banner-badge px-4 py-1 mx-auto w-fit">
+                    <div id="card-1-badge" class="bg-banner-badge px-4 py-1 mx-auto md:ml-0 w-fit">
                         <p class="font-segoe font-semibold">New</p>
                     </div>
 
                     <div id="card-1-head" class="my-2">
-                        <h2 class="font-segoe font-semibold text-center text-xl">Surface Pro 8</h2>
+                        <h2 class="font-segoe font-semibold text-center text-xl md:text-left">Surface Pro 8</h2>
                     </div>
 
-                    <div id="card-1-text" class="px-4 mb-2">
-                        <p class="text-center">Do more with a larger 13-inch touchscreen, faster connections and extra
+                    <div id="card-1-text" class="px-4 mb-2 md:mb-6 md:px-0">
+                        <p class="text-center md:text-left md:w-3/6 lg:w-3/5">Do more with a larger 13-inch touchscreen,
+                            faster connections and extra
                             speed. Now available
                             with Windows 11.</p>
                     </div>
 
                     <div id="card-1-btn"
-                        class="w-fit mx-auto bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
+                        class="w-fit mx-auto md:ml-0 bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
                         <a href="#" class="text-white font-segoe font-semibold">
                             <span class="group-hover:underline underline-offset-4">Learn more
 
@@ -124,7 +128,7 @@
             <!-- Small Cards Section Start -->
         </section>
         <section id="small-cards" class="container mx-auto px-4 lg:px-0 py-16">
-            <div class="flex flex-col md:flex-row md:items-center gap-5 justify-center">
+            <div class="flex flex-col md:flex-row gap-5 justify-center">
                 <div id="sc1" class="group md:basis-36">
                     <a href="#" class="flex gap-2 items-center md:flex-col md:text-center">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoAgMAAADxkFD+AAAADFBMVEUAAAAEBwcEBwcEBwfFLVwKAAAAA3RSTlMA8OE5x/eNAAAAAW9yTlQBz6J3mgAAAClJREFUGNNjYMAK+P////9FHkh8GBpM1tDQ0AhVIBGA3T/ICoaa37ACALq3BzBHsg7nAAAAAElFTkSuQmCC" alt="card-1-img" class="w-6 md:w-10">
@@ -240,22 +244,27 @@
             <!-- Grid Ends -->
         </section>
         <!-- Display Card Section End -->
-        <section class="container mx-auto pb-16 bg-background" id="banner-2">
-            <div id="card1-img-area" class=" h-[20vh] bg-[url('/images/banner2.webp')] bg-right-bottom bg-cover"></div>
+        <section class="container mx-auto pb-16 bg-background md:relative md:pb-0" id="banner-2">
+            <div id="card1-img-area"
+                class=" h-[39vh] xssm:h-[60vh] sm:h-[70vh] bg-[url('/images/banner2.webp')] bg-right-bottom md:bg-right-bottom bg-cover">
+            </div>
 
-            <div id="banner-2-card1-text" class="pt-16">
+            <div id="banner-2-card1-text"
+                class="pt-16 md:absolute md:top-0 md:left-0 md:pt-0 md:flex md:flex-col md:h-full md:justify-center md:ml-12 lg:ml-24 md:py-6 lg:py-10">
 
                 <div id="card-1-head" class="my-2">
-                    <h2 class="font-segoe font-semibold text-center text-xl">Microsoft OneDrive</h2>
+                    <h2 class="font-segoe font-semibold text-center text-xl md:text-2xl md:text-left">Microsoft OneDrive
+                    </h2>
                 </div>
 
-                <div id="banner-2-card-1-text" class="px-4 mb-2">
-                    <p class="text-center">Save your files and photos to OneDrive and access them from any device,
+                <div id="banner-2-card-1-text" class="px-4 mb-2 md:px-0">
+                    <p class="text-center md:text-left md:w-2/3">Save your files and photos to OneDrive and access them
+                        from any device,
                         anywhere</p>
                 </div>
 
                 <div id="banner-2-card-1-btn"
-                    class="w-fit mx-auto bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
+                    class="w-fit mx-auto md:ml-0 bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
                     <a href="#" class="text-white font-segoe font-semibold">
                         <span class="group-hover:underline underline-offset-4">Learn more
 
