@@ -87,28 +87,28 @@
 
     <main id="main">
         <section id="banner" class="container mx-auto">
-            <div id="b-1">
+            <div id="b-1" class="md:relative">
 
-                <div id="card1-img-area" class=" h-[20vh] bg-[url('/images/c1.webp')] bg-right-bottom bg-cover"></div>
+                <div id="card1-img-area" class=" h-[20vh] md:h-[65vh] bg-[url('/images/c1.webp')] bg-right-bottom md:bg-center bg-cover"></div>
 
-                <div id="card1-text" class="bg-background py-16">
+                <div id="card1-text" class="bg-background py-16 md:absolute md:top-0 md:left-0 md:bg-transparent md:ml-24 md:py-10">
 
-                    <div id="card-1-badge" class="bg-banner-badge px-4 py-1 mx-auto w-fit">
+                    <div id="card-1-badge" class="bg-banner-badge px-4 py-1 mx-auto md:ml-0 w-fit">
                         <p class="font-segoe font-semibold">New</p>
                     </div>
 
                     <div id="card-1-head" class="my-2">
-                        <h2 class="font-segoe font-semibold text-center text-xl">Surface Pro 8</h2>
+                        <h2 class="font-segoe font-semibold text-center text-xl md:text-left">Surface Pro 8</h2>
                     </div>
 
-                    <div id="card-1-text" class="px-4 mb-2">
-                        <p class="text-center">Do more with a larger 13-inch touchscreen, faster connections and extra
+                    <div id="card-1-text" class="px-4 mb-2 md:px-0">
+                        <p class="text-center md:text-left md:w-3/5">Do more with a larger 13-inch touchscreen, faster connections and extra
                             speed. Now available
                             with Windows 11.</p>
                     </div>
 
                     <div id="card-1-btn"
-                        class="w-fit mx-auto bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
+                        class="w-fit mx-auto md:ml-0 bg-black px-6 py-2 cursor-pointer hover:bg-black/80 group">
                         <a href="#" class="text-white font-segoe font-semibold">
                             <span class="group-hover:underline underline-offset-4">Learn more
 
@@ -122,7 +122,7 @@
             <!-- Small Cards Section Start -->
         </section>
         <section id="small-cards" class="container mx-auto px-4 lg:px-0 py-16">
-            <div class="flex flex-col md:flex-row md:items-center gap-5 justify-center">
+            <div class="flex flex-col md:flex-row gap-5 justify-center">
                 <div id="sc1" class="group md:basis-36">
                     <a href="#" class="flex gap-2 items-center md:flex-col md:text-center">
                         <img src="./images/card4.png" alt="card-1-img" class="w-6 md:w-10">
